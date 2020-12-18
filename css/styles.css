@@ -1,10 +1,14 @@
 /********************** TAG SELECTORS *******************/
+body,
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-size: 16px;
   font-family: "Rubik", sans-serif;
   background-color: #fafafa;
-  overflow-x: hidden;
 }
 
 h3,
