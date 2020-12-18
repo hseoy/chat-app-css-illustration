@@ -59,10 +59,10 @@ button {
 }
 
 @media (max-width: 1120px) {
-  .graphic--right {
+  .graphic--left {
     left: -370px;
   }
-  .graphic--left {
+  .graphic--right {
     right: -370px;
   }
 }

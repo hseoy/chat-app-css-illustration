@@ -56,10 +56,10 @@ button {
     background-color: hsl(264, 33%, 97%);
   }
   @media (max-width: 1120px) {
-    &--right {
+    &--left {
       left: -370px;
     }
-    &--left {
+    &--right {
       right: -370px;
     }
   }
