@@ -43,14 +43,15 @@ button {
   z-index: -1;
 }
 
-.graphic--right {
+.graphic--left {
   border-radius: 0 0 300px 300px;
-  background-color: #8838ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d942ff), to(#8838ff));
+  background: linear-gradient(#d942ff, #8838ff);
   top: 0;
   left: -87px;
 }
 
-.graphic--left {
+.graphic--right {
   border-radius: 300px 300px 0px 0px;
   bottom: 0;
   right: -162px;

@@ -43,13 +43,13 @@ button {
   position: absolute;
   z-index: -1;
 
-  &--right {
+  &--left {
     border-radius: 0 0 300px 300px;
-    background-color: hsl(264, 100%, 61%);
+    background: linear-gradient(hsl(288, 100%, 63%), hsl(264, 100%, 61%));
     top: 0;
     left: -87px;
   }
-  &--left {
+  &--right {
     border-radius: 300px 300px 0px 0px;
     bottom: 0;
     right: -162px;
