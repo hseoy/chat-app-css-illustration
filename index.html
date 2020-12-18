@@ -5,47 +5,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/70c56172b6.js" crossorigin="anonymous"></script>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Chat app CSS illustration</title>
+
 </head>
 <body>
+  <div class="challenge-content">
+    <div class="graphic graphic--left"></div>
+    <div class="graphic graphic--right"></div>
 
-  Samuel Green
-  Available to Walk
-
-  That sounds great. I’d be happy with that.
-
-  Could you send over some pictures of your dog, please?
-
-  Here are a few pictures. She’s a happy girl!
-
-  Can you make it?
-
-  She looks so happy! The time we discussed works. How long shall I take her out for?
-
-  30 minute walk
-  $29
-
-  1 hour walk
-  $49
-
-  Type a message…
-
-  Simple booking
-
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
+    <div class="main-container">
+      <div class="main-container__chat-app-wrap">
+        <div class="chat-app-wrap__chat-app">
+  
+          <div class="chat-app__head">
+            <div class="head__ios-head"></div>
+            <div class="head__app-head">
+              <div class="app-head__nav-icon"><i class="fas fa-angle-left"></i></div>
+              <div class="app-head__user-info">
+                <div class="user-info__avatar"><img width="100%" src="images/avatar.jpg" alt="avatar image"></div>
+                <div class="user-info__info-text">
+                  <h3 class="info-text__user-name">Samuel Green</h3>
+                  <p class="info-text__user-status">Available to Walk</p>
+                </div>
+              </div>
+              <div class="app-head__nav-icon"><i class="fas fa-ellipsis-v"></i></div>
+            </div>
+          </div>
+    
+          <div class="chat-app__body">
+            <div class="body__chat body__chat--left">
+              <div class="chat__messages">
+                <p class="chat__message-item">That sounds great. I’d be happy with that.</p>
+                <p class="chat__message-item">Could you send over some pictures of your dog, please?</p>
+              </div>
+            </div>
+            <div class="body__chat body__chat--right">
+              <div class="chat__images">
+                <div class="chat__image-item"><img src="images/dog-image-1.jpg" alt="first dog image"></div>
+                <div class="chat__image-item"><img src="images/dog-image-2.jpg" alt="second dog image"></div>
+                <div class="chat__image-item"><img src="images/dog-image-3.jpg" alt="third dog image"></div>
+              </div>
+              <div class="chat__messages">
+                <p class="chat__message-item">Here are a few pictures. She’s a happy girl!</p>
+                <p class="chat__message-item">Can you make it?</p>
+              </div>
+            </div>
+            <div class="body__chat body__chat--left">
+              <div class="chat__messages">
+                <p class="chat__message-item">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+              </div>
+              <div class="chat__choice-itme-list">
+                <div class="chat__choice-item chat__message-item">
+                  <div class="choice-item__radio-button"></div>
+                  <div class="choice-item__title">30 minute walk</div>
+                  <div class="choice-item__price">$29</div>
+                </div>
+                <div class="chat__choice-item chat__message-item">
+                  <div class="choice-item__radio-button"></div>
+                  <div class="choice-item__title">1 hour walk</div>
+                  <div class="choice-item__price">$49</div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="chat-app__typebar">
+            <p class="typebar__placeholder-text">Type a message...</p>
+            <div class="typebar__send-button"><i class="fas fa-angle-right"></i></div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="main-container__main-content-wrap">
+        <div class="main-content-wrap__main-content">
+          <h1 class="main-content__title">Simple booking</h1>
+          <p class="main-content__paragraph">Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
   
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/hseoy/chat-app-css-illustration" target="_blank" rel="noreferrer">Yunseo Hwang</a>.
   </div>
 </body>
 </html>
