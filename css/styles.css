@@ -32,6 +32,10 @@ button {
   color: #b3b3b3;
 }
 
+.challenge-content {
+  position: relative;
+}
+
 .graphic {
   width: 500px;
   height: 80%;
@@ -83,6 +87,8 @@ button {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .main-container__main-content-wrap {

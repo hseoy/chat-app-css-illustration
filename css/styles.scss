@@ -33,6 +33,10 @@ button {
   }
 }
 
+.challenge-content {
+  position: relative;
+}
+
 .graphic {
   width: 500px;
   height: 80%;
@@ -72,6 +76,8 @@ button {
     justify-content: center;
     align-items: center;
     padding-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   &__main-content-wrap {
     width: 50%;
